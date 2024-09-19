@@ -1,0 +1,10 @@
+import random
+a = random.randint(1,10) 
+b=int(input('猜一個1-10的數字：'))
+while a!=b:
+   if b < a:
+    b = int(input('再試一次吧：'))   
+   elif b > a:
+    b = int(input('再試一次吧：')) 
+
+print('答對囉！') 
